@@ -1,0 +1,165 @@
+//SCSS
+$bg-color:#abd9f1;
+$bg-color-light:#f6f6f6;
+$t-color:#000000;
+$line-color:#3e4f58;
+$font-bold:"Bold";
+$font-regular:"Regular";
+$font-light:"Light";
+$p:100px;
+$shadow: (1px 1px 2px rgb(29, 2, 73), 0 0 1em $line-color);
+$border-color:rgb(30, 27, 245);
+$main-text:#023e83;
+//CSS
+.cv__wrap {
+    margin-top: $p*0.3;
+    margin-bottom: $p*0.3;
+    @media screen and (max-width: 568px) {
+        margin-top: $p*0.15;
+        margin-bottom: $p*0.15;
+        text-align: center;
+        padding: 0 $p*0.15;
+    }
+    .introduce__cv__item {
+        padding-left: 0;
+        @media screen and (max-width: 768px) {
+            text-align: center;
+        }
+        .avatar-img {
+            vertical-align: middle;
+            border-radius: 50%;
+            box-shadow: $shadow;
+            border: 1px solid $border-color;
+            margin-left: $p*0.5;
+            @media screen and (max-width: 992px) {
+                margin-left: 0;
+            }
+            @media screen and (max-width: 768px) {
+                margin-bottom: $p*0.25;
+                margin-left: 0;
+            }
+            @media screen and (max-width: 568px) {
+                margin-bottom: $p*0.15;
+                margin-left: 0;
+            }
+        }
+        .introduce__content {
+            box-shadow: $shadow;
+            border: 1px solid $border-color;
+            background-color: $bg-color-light;
+            text-align: center;
+            padding: $p*0.25 0;
+            .introduce__content-name {
+                font-family: $font-bold;
+                font-weight: bold;
+            }
+            .introduce__content-vacancy {
+                font-family: $font-regular;
+                font-size: 2em;
+                font-weight: bold;
+                color: $main-text;
+            }
+        }
+    }
+    .cv__content {
+        margin-top: $p*0.25;
+        padding-left: $p*0.2;
+        @media screen and (max-width: 768px) {
+            padding-left: 0;
+        }
+        @media screen and (max-width: 568px) {
+            padding-left: 0;
+        }
+        .aside__item {
+            box-shadow: $shadow;
+            border: 1px solid $border-color;
+            background-color: $bg-color-light;
+            font-family: $font-regular;
+            font-weight: 800;
+            padding-left: $p*0.15;
+            padding-top: $p*0.25;
+            @media screen and (max-width: 568px) {
+                padding-left: 0;
+            }
+            .aside__content {
+                list-style: none;
+                padding-left: 0;
+                color: $main-text;
+                @media screen and (max-width: 768px) {
+                    padding-left: $p*0.2;
+                }
+                @media screen and (max-width: 568px) {
+                    padding-left: 0;
+                }
+                .skill__item {
+                    font-family: $font-bold;
+                    font-size: 2em;
+                    font-weight: bold;
+                    color: $t-color;
+                    text-transform: uppercase;
+                    color: $t-color;
+                    padding-left: $p*0.2;
+                    @media screen and (max-width: 768px) {
+                        padding-left: $p*0.4;
+                    }
+                    @media screen and (max-width: 568px) {
+                        padding: 0;
+                    }
+                }
+                a {
+                    color: $main-text;
+                    &:hover {
+                        color: $t-color;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .main__item {
+            box-shadow: $shadow;
+            border: 1px solid $border-color;
+            background-color: $bg-color-light;
+            padding-top: $p*0.25;
+            font-family: $font-regular;
+            font-weight: 800;
+            @media screen and (max-width: 768px) {
+                margin-top: $p*0.25;
+            }
+            .main__title {
+                font-family: $font-bold;
+                font-size: 2em;
+                font-weight: bold;
+                color: $t-color;
+                text-transform: uppercase;
+                color: $t-color;
+                padding-left: $p*0.2;
+                @media screen and (max-width: 768px) {
+                    padding-left: $p*0.6;
+                }
+                @media screen and (max-width: 568px) {
+                    padding: 0;
+                }
+            }
+            .about__content {
+                list-style: none;
+                padding-left: 0;
+                color: $main-text;
+                @media screen and (max-width: 768px) {
+                    padding-left: $p*0.2;
+                }
+                @media screen and (max-width: 568px) {
+                    padding: 0;
+                }
+            }
+            .education__item {
+                color: $main-text;
+                font-family: $font-regular;
+                .education__title {
+                    color: $t-color;
+                    font-family: $font-light;
+                }
+            }
+        }
+    }
+}

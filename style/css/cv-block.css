@@ -1,0 +1,188 @@
+.cv__wrap {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 568px) {
+  .cv__wrap {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 0 15px;
+  }
+}
+.cv__wrap .introduce__cv__item {
+  padding-left: 0;
+}
+@media screen and (max-width: 768px) {
+  .cv__wrap .introduce__cv__item {
+    text-align: center;
+  }
+}
+.cv__wrap .introduce__cv__item .avatar-img {
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px #1d0249, 0 0 1em #3e4f58;
+  border: 1px solid #1e1bf5;
+  margin-left: 50px;
+}
+@media screen and (max-width: 992px) {
+  .cv__wrap .introduce__cv__item .avatar-img {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cv__wrap .introduce__cv__item .avatar-img {
+    margin-bottom: 25px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 568px) {
+  .cv__wrap .introduce__cv__item .avatar-img {
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+}
+.cv__wrap .introduce__cv__item .introduce__content {
+  box-shadow: 1px 1px 2px #1d0249, 0 0 1em #3e4f58;
+  border: 1px solid #1e1bf5;
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 25px 0;
+}
+.cv__wrap .introduce__cv__item .introduce__content .introduce__content-name {
+  font-family: "Bold";
+  font-weight: bold;
+}
+.cv__wrap .introduce__cv__item .introduce__content .introduce__content-vacancy {
+  font-family: "Regular";
+  font-size: 2em;
+  font-weight: bold;
+  color: #023e83;
+}
+.cv__wrap .cv__content {
+  margin-top: 25px;
+  padding-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .cv__wrap .cv__content {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 568px) {
+  .cv__wrap .cv__content {
+    padding-left: 0;
+  }
+}
+.cv__wrap .cv__content .aside__item {
+  box-shadow: 1px 1px 2px #1d0249, 0 0 1em #3e4f58;
+  border: 1px solid #1e1bf5;
+  background-color: #f6f6f6;
+  font-family: "Regular";
+  font-weight: 800;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+@media screen and (max-width: 568px) {
+  .cv__wrap .cv__content .aside__item {
+    padding-left: 0;
+  }
+}
+.cv__wrap .cv__content .aside__item .aside__content {
+  list-style: none;
+  padding-left: 0;
+  color: #023e83;
+}
+@media screen and (max-width: 768px) {
+  .cv__wrap .cv__content .aside__item .aside__content {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .cv__wrap .cv__content .aside__item .aside__content {
+    padding-left: 0;
+  }
+}
+.cv__wrap .cv__content .aside__item .aside__content .skill__item {
+  font-family: "Bold";
+  font-size: 2em;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  color: #000000;
+  padding-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .cv__wrap .cv__content .aside__item .aside__content .skill__item {
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .cv__wrap .cv__content .aside__item .aside__content .skill__item {
+    padding: 0;
+  }
+}
+.cv__wrap .cv__content .aside__item .aside__content a {
+  color: #023e83;
+}
+.cv__wrap .cv__content .aside__item .aside__content a:hover {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cv__wrap .cv__content .main__item {
+  box-shadow: 1px 1px 2px #1d0249, 0 0 1em #3e4f58;
+  border: 1px solid #1e1bf5;
+  background-color: #f6f6f6;
+  padding-top: 25px;
+  font-family: "Regular";
+  font-weight: 800;
+}
+@media screen and (max-width: 768px) {
+  .cv__wrap .cv__content .main__item {
+    margin-top: 25px;
+  }
+}
+.cv__wrap .cv__content .main__item .main__title {
+  font-family: "Bold";
+  font-size: 2em;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  color: #000000;
+  padding-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  .cv__wrap .cv__content .main__item .main__title {
+    padding-left: 60px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .cv__wrap .cv__content .main__item .main__title {
+    padding: 0;
+  }
+}
+.cv__wrap .cv__content .main__item .about__content {
+  list-style: none;
+  padding-left: 0;
+  color: #023e83;
+}
+@media screen and (max-width: 768px) {
+  .cv__wrap .cv__content .main__item .about__content {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .cv__wrap .cv__content .main__item .about__content {
+    padding: 0;
+  }
+}
+.cv__wrap .cv__content .main__item .education__item {
+  color: #023e83;
+  font-family: "Regular";
+}
+.cv__wrap .cv__content .main__item .education__item .education__title {
+  color: #000000;
+  font-family: "Light";
+}
+
+/*# sourceMappingURL=cv-block.css.map */

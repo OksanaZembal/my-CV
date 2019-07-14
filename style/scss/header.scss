@@ -1,0 +1,42 @@
+//SCSS
+$bg-color:#29373f;
+$t-color:#ffffff;
+$line-color:#dddcdc;
+$font-bold:"Bold";
+$font-regular:"Regular";
+$font-light:"Light";
+$p:100px;
+@mixin flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+//CSS
+.header_wrap {
+    background-image: url("../../img/3256657136926fa.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: $p*0.1 $p*0.8;
+    @media screen and (max-width: 768px) {
+        padding: $p*0.1 $p*0.4;
+    }
+    @media screen and (max-width: 568px) {
+        padding: 0;
+        height: 170px;
+    }
+    .nav {
+        margin: 0 $p*0.2;
+        .btn {
+            margin: 0 10px;
+            @media screen and (max-width: 568px) {
+                margin: 10px;
+            }
+        }
+        .nav_btn {
+            padding-left: $p*0.32;
+            padding-right: $p*0.33;
+        }
+    }
+}

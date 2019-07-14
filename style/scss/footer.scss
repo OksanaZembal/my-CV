@@ -1,0 +1,59 @@
+//SCSS
+$bg-color:#abd9f1;
+$bg-color-light:#f6f6f6;
+$t-color:#000000;
+$line-color:#3e4f58;
+$font-bold:"Bold";
+$font-regular:"Regular";
+$font-light:"Light";
+$p:100px;
+$shadow: (1px 1px 2px rgb(29, 2, 73), 0 0 1em $line-color);
+$border-color:rgb(30, 27, 245);
+$main-text:#023e83;
+//CSS
+.footer__wrap {
+    background-image: url("../../img/3256657136926fa.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: $p*0.1 $p*0.8;
+    height: 150px;
+    @media screen and (max-width: 768px) {
+        padding: $p*0.1 $p*0.4;
+    }
+    @media screen and (max-width: 568px) {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+    .footer__content {
+        font-family: $font-regular;
+        color: $bg-color-light;
+        .footer__title {
+            font-size: 1.5em;
+            letter-spacing: 3px;
+        }
+        a {
+            color: $bg-color-light;
+            & :hover {
+                text-decoration: none;
+                color: $line-color;
+            }
+        }
+    }
+    .social__icons {
+        padding: 0;
+        list-style-type: none;
+        margin: 0 $p*0.2;
+        @media screen and (max-width: 568px) {
+            margin: 0;
+            padding: 0 $p*0.1;
+        }
+        li {
+            margin-right: $p*0.1;
+            @media screen and (max-width: 568px) {
+                margin-right: 0;
+            }
+        }
+    }
+}
